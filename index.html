@@ -21,6 +21,8 @@
                     colors: {
                         clifford: '#da373d',
                         'primary-color': '#ABEF5F',
+                        'primary-dark': '#212121',
+                        'light-dark': '#494949',
                         'light-primary-color': '#ABEF5F33',
                         'light-pink': '#E7C1D3',
                         'light-yellow': '#EFDA6E',
@@ -37,10 +39,11 @@
 </head>
 <body class="font-manrope">
     <header class="container mx-auto">
-        <nav>
+        <!-- Navbar Section -->
+        <nav class="px-3">
             <div class="navbar bg-base-100">
                 <div class="navbar-start">
-                    <a class="font-extrabold text-3xl flex items-center gap-1"><i class="rounded-full text-xl bg-primary-color rotate-45 px-3 py-[5.5px] fa-solid fa-arrow-up-long"></i>Ringterio</a>
+                    <a class="primary-dark font-extrabold text-3xl flex items-center gap-1"><i class="rounded-full text-xl bg-primary-color rotate-45 px-3 py-[5.5px] fa-solid fa-arrow-up-long"></i>Ringterio</a>
                 </div>
                 <div class="navbar-center hidden lg:flex">
                     <ul class="menu menu-horizontal px-1">
@@ -66,10 +69,25 @@
                 <div class="navbar-end space-x-3 hidden md:flex md:justify-end">
                     <i class="bg-white rounded-full text-xl px-3 py-[5.5px] border border-gray-400 fa-solid fa-magnifying-glass"></i>
                     <i class="bg-white rounded-full text-xl px-3 py-[5.5px] border border-gray-400 fa-solid fa-cart-shopping"></i>
-                    <button class="btn bg-primary-color rounded-full font-extrabold px-5 text-xl">Book consult <i style="border-radius: 50%" class="text-lg text-white bg-black rotate-45 px-3 py-[5.5px] fa-solid fa-arrow-up-long"></i> </button>
+                    <button class="bg-primary-color rounded-full text-xl px-6 py-3 font-extrabold">Book Consult <i
+                    class="text-white rotate-45 fa-solid fa-arrow-up bg-black p-2 rounded-full px-3 py-[8.8px]"></i></button>
                 </div>
             </div>
         </nav>
+        <!-- banner section -->
+         <section>
+            <div class="flex justify-center mt-8">
+                <img class="md:w-[572px] w-9/12" src="./assets/banner.png" alt="house1">
+            </div>
+            <div class="mt-8">
+                <h1 class="primary-dark md:text-7xl text-4xl font-extrabold text-center">A barn house of this design has a<br>striking appearance</h1>
+                <p class="text-gray-500 md:mt-8 mt-4 md:text-base text-sm p-3 font-bold text-center">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek<br>metal accents, and large windows that flood the space with natural light.</p>
+            </div>
+            <div class="text-center md:mt-8 mt-4">
+                <button class=" bg-light-primary-color rounded-full text-xl md:px-6 md:py-3 px-28 py-3 font-extrabold">View Details <i
+                class="text-black rotate-45 fa-solid fa-arrow-up bg-primary-color p-2 rounded-full px-3 py-[8.8px]"></i></button>
+            </div>
+         </section>
     </header>
     <main>
 
