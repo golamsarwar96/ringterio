@@ -32,6 +32,10 @@
                     fontFamily: {
                         manrope: ["Manrope", 'sans-serif'],
                     },
+                    backgroundImage: {
+                        'input-bg': "url('.//assets/bg.jpg')",
+                    },
+                    
                 }
             }
         }
@@ -183,8 +187,8 @@
                 </div>
             </div>
         </section>
-
-        <section class="bg-white p-10">
+        <!-- Portfolio Section -->
+        <section class="bg-white p-10 space-y-28">
             <div class="container mx-auto">
                 <!-- Portfolio Title -->
                 <div class="px-4 py-3 bg-light-primary-color rounded-full w-72 mx-auto mt-8 flex content-center justify-center items-center">
@@ -235,6 +239,47 @@
                 </div>
             </div>
         </section>
+        <!-- Input Section -->
+         <section class="bg-white bg-input-bg p-10 bg-no-repeat bg-cover">
+            <div class="">
+                <!-- Input Title -->
+                <div
+                    class="px-4 py-3 bg-light-primary-color rounded-full w-44 mx-auto flex content-center justify-center items-center">
+                    <button class="text-center font-extrabold text-light-dark"><i class="fa-solid fa-arrow-right"></i> Let's Connect</button>
+                </div>
+                <h1 class="text-dark-primary font-extrabold md:text-5xl text-4xl text-center mt-8">Let’s Discuss Next Project</h1>
+                <p class="text-light-dark text-base font-semibold text-center mt-3 md:w-1/2 p-6 mx-auto">Contact Us to know about the future project that we are planning to do. You can also contact us for your any query.</p>
+
+                <!-- Form section -->
+                 <div>
+                    <form action="">
+                        <div class="text-center md:space-x-6 flex flex-col md:flex-row md:justify-center mb-5">
+                            <div class="mb-3">
+                                <input class="py-5 pl-6 pr-48 rounded-full" type="text" placeholder="First Name*">
+                            </div>
+                            <div>
+                                <input class="py-5 pl-6 pr-48 rounded-full" type="text" placeholder="First Name*">
+                            </div>
+                        </div>
+                        <div class="text-center md:space-x-6 flex flex-col md:flex-row md:justify-center">
+                            <div class="mb-3">
+                                <input class="py-5 pl-6 pr-48 rounded-full" type="text" placeholder="Phone Number*">
+                            </div>
+                            <div>
+                                <input class="py-5 pl-6 pr-48 rounded-full" type="email" placeholder="Email Address*">
+                            </div>
+                        </div>
+                        <div class="flex justify-center mt-5">
+                            <textarea rows="10" cols="90" class="rounded-2xl p-5" placeholder="Write your message here"></textarea>
+                        </div>
+                        <div class="text-center mt-10">
+                            <button class="bg-primary-color text-center rounded-full text-xl md:px-[340px] px-28 py-3 font-extrabold">Send Mail
+                                <i class="text-white rotate-45 fa-solid fa-arrow-up bg-black p-2 rounded-full px-2 py-[5px]"></i></button>
+                        </div>
+                    </form>
+                 </div>
+            </div>
+         </section>
     </main>
     <footer>
 
